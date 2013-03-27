@@ -1,0 +1,15 @@
+{
+  "name": "No Alias",
+  "version": "0.1",
+  "permissions": [
+    "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["myscript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
